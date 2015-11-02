@@ -22,6 +22,7 @@ public class ContainerMethodDifferences {
 			result.add(c.getSimpleName());
 		}
 		System.out.println(result);
+		
 	}
 	static Set<String> object = methodSet(Object.class);
 	static {
