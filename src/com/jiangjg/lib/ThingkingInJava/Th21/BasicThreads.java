@@ -8,7 +8,9 @@ public class BasicThreads {
 	public static void main(String[] args) {
 		Thread thread = new Thread(new LiftOff());
 		thread.start();
-		for(int i=0; i<10000000;i++){
+		Thread thread2 = new Thread(new LiftOff());
+		thread2.start();
+		for(int i=0; i<100000;i++){
 			int a = 0;
 			a++;
 		}
